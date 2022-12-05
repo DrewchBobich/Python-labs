@@ -1,5 +1,5 @@
 #Задани №1
-def chetni(i):  # i - список
+def chetni(i):   # i - список
     b = []
     for h in range(0, len(i)):
         if h % 2 == 0:
@@ -9,7 +9,7 @@ def chetni(i):  # i - список
     return b
 
 #Задание №2
-def bolshe(i):   # i - список
+def bolshe(i):    # i - список
     b = []
     for h in range(len(i)-1):
         if i[h + 1] > i[h]:
@@ -19,7 +19,7 @@ def bolshe(i):   # i - список
     return b
 
 #Задание №3
-def prikol(i):   # i - список
+def prikol(i):    # i - список
     bolsh = max(i)
     mensh = min(i)
     b = i.index(min(i))
@@ -29,5 +29,5 @@ def prikol(i):   # i - список
     return i  
 
 #Задание №4
-def chtoto(i, b):   # i - словарь, b - ключ
+def chtoto(i, b):    # i - словарь, b - ключ
   print(i[b])
