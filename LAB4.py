@@ -32,4 +32,3 @@ def prikol(i):    # i - список
 def chtoto(i, b):    # i - словарь, b - ключ
   print(i[b])
 
-print("hello")
