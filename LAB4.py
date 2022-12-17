@@ -1,4 +1,4 @@
-#Задани №1
+#Задание №1
 def chetni(i):   # i - список
     b = []
     for h in range(0, len(i)):
@@ -31,3 +31,5 @@ def prikol(i):    # i - список
 #Задание №4
 def chtoto(i, b):    # i - словарь, b - ключ
   print(i[b])
+
+print("hello")
