@@ -7,7 +7,7 @@ class Rocket:
 
     
     #метод, который расходует count кг топлива
-    #Если после этого топливо ещё осталось, то выводит True, и наоборот(False)
+    #если после этого топливо ещё осталось, то выводит True, и наоборот(False)
     def spend_fuel(self, count):
 
         self.total_weight -= count
@@ -33,12 +33,12 @@ class Rocket:
 
     #метод, определяющий работает ли двигатель
     def get_is_engine_running(self):
-        return f'Состояние двигателя(True-работает, False-заглох): {self.engine_running}'    
+        return f'Состояние двигателя(True-работает, False-не работет): {self.engine_running}'    
 
 
-#Тест
+#тест
 def Main():
-    Test = Rocket(184000, 200000, True)
+    Test = Rocket(60000, 120000, True)
     k=0
 
     while (Test.fuel_level) > 0: 
