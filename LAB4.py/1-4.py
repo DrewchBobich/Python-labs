@@ -7,8 +7,10 @@ def chetni(i):   # i - список
         else:
             continue
     return b
+
 a = [1, 2, 3, 4]
 print(chetni(a))    
+
 
 #Задание №2
 def bolshe(i):    # i - список
@@ -19,8 +21,11 @@ def bolshe(i):    # i - список
         else:
             continue
     return b
+
 a = [1, 2, 3, 4]
 print(bolshe(a))
+
+
 #Задание №3
 def prikol(i):    # i - список
     bolsh = max(i)
@@ -30,12 +35,17 @@ def prikol(i):    # i - список
     i[b] = bolsh
     i[a] = mensh
     return i  
+
 a = [1, 2, 3, 4]
 print(prikol(a))
+
+
 #Задание №4
 d = {1: 'bebra', 2: 'bobra', 3: 'dobra', 4: 'dora'}
 key = int(input('Введите ключ, чтобы получить значение: '))
+
 def get_value(dictionary):
     value = dictionary.get(key)
     print(value)
+
 get_value(d)
