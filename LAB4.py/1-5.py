@@ -49,3 +49,8 @@ def get_value(dictionary):
     print(value)
 
 get_value(d)
+
+
+#Задание №5
+from figures import square_area
+square_area()
